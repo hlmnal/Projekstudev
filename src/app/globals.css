@@ -19,3 +19,34 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.text-navstick {
+  font-family: var(--geistSans-font);
+  font-size: 12px;
+  font-weight: 800;
+  color: #494949;
+}
+.text-first {
+  color: #747474;
+  font-size: 12px;
+  font-weight: 500;
+}
+.text-second {
+  color: #2E2C2C;
+  font-size: 32px;
+  font-weight: 500;
+}
+.text-third {
+  color: #313030;
+  font-size: 15px;
+  font-weight: 500;
+}
+.text-kln {
+  color: #2E2C2C;
+  font-size: 36px;
+  font-weight: 500;
+}
+.text-kln2 {
+  color: #747474;
+  font-size: 12px;
+  font-weight: 500;
+}
