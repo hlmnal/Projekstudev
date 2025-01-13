@@ -21,6 +21,25 @@ import Test from "../public/icontest.svg"
 import IELTSC from "../public/IELTSC.svg"
 import TOEFLC from "../public/TOEFLC.svg"
 import ENGC from "../public/ENGC.svg"
+import Fun from "../public/Fun Fact.svg"
+import Ceritaku from "../public/Ceritaku.svg"
+import Tips from "../public/Tips.svg"
+import Faustina from "../public/Faustina.svg"
+import Ratih from "../public/Ratih.svg"
+import Nurul from "../public/Nurul.svg"
+import SHS from "../public/SHS.svg"
+import Point from "../public/point.svg"
+import EM1 from "../public/EM1.svg"
+import EM2 from "../public/EM2.svg"
+import EM3 from "../public/EM3.svg"
+import Arrow from "../public/DownArrow.svg"
+import Logo from "../public/Logo 2.svg"
+import Kontak from "../public/Kontak.svg"
+import Alamat from "../public/Alamat.svg"
+import Facebook from "../public/Facebook.svg"
+import Linkedin from "../public/Linkedin.svg"
+import Instagram from "../public/Instagram.svg"
+import Youtube from "../public/Youtube.svg"
 
 const Content = () => {
     return (
@@ -124,14 +143,169 @@ const Content = () => {
                 <div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "850px", height: "150px", backgroundColor: "#E2626B", alignContent: "center", borderRadius: "5px", margin: "0 auto", position: "relative", marginTop: "200px", gap: "200px" }}>
                     <p style={{ color: "white", fontSize: "24px", wordBreak: "break-word" }}>Kamu bisa konsultasi gratis sebelum <br /> memilih program.</p>
                         <div style={{ justifyContent: "right", alignItems: "right", width: "150px", height: "40px", backgroundColor: "white", borderRadius: "25px" }}>
-                    <p style={{ fontSize: "11.5px", color: "#212121", fontWeight: "bold", textAlign: "center", transform: "translate(0%, 70%)" }}>Konsultasi Sekarang</p>
+                        <p style={{ fontSize: "11.5px", color: "#212121", fontWeight: "bold", textAlign: "center", transform: "translate(0%, 70%)" }}>
+                            Konsultasi Sekarang
+                        </p>
                         </div>
                 </div>
-                <div style={{ marginTop: "140px", textAlign: "center" }}>
+                <div style={{ marginTop: "140px", textAlign: "center" , marginBottom:"20px" }}>
                     <p style={{ color: "#313030", fontSize:"30px"}}>
                         Cerita Studev</p>
                     <p style={{ fontSize: "13px", wordBreak: "break-word", marginTop: "5px", color: "#747474" , paddingTop:"5px"}}>
                         Inspirasi buat kamu yang bercita-cita kuliah ke luar negeri</p>
+                </div>
+                <div style={{ display: "flex", alignItems: "start", justifyContent: "center", gap: "20px" , marginTop:"40px"}}>
+                    <Image src={Fun} alt="Fun" />
+                    <Image src={Ceritaku} alt="Ceritaku" />
+                    <Image src={Tips} alt="Tips" />
+                </div>
+                <div style={{ display: "flex", marginTop: "150px", justifyContent: "center", alignItems: "center" }}>
+                    <div style={{ flex: "1" }}>
+                        <p style={{ color: "#E2626B", fontSize: "12px", fontWeight: "550", marginBottom: "20px" , marginLeft:"170px" }}>
+                            - MEET OUR TUTORS
+                        </p>
+                        <p style={{fontSize: "28px", color: "#313030", fontWeight: "500", letterSpacing: "0%", wordBreak: "break-word", lineHeight: "1.3" , marginLeft:"170px"}}>
+                            Mereka adalah lulusan<br />
+                            terbaik dari kampus<br />
+                            luar negeri peraih<br />
+                            berbagai macam jalur<br />
+                            beasiswa.
+                        </p>
+                    </div>
+                    <div style={{display: "grid", gridTemplateColumns: "repeat(3, 2fr)", gap: "25px", marginRight:"170px"}}>
+                        <Image src={Faustina} alt="Faustina" />
+                        <Image src={Ratih} alt="Ratih" />
+                        <Image src={Nurul} alt="Nurul" />
+                    </div>
+                </div>
+            </div>
+            <div style={{display: "flex", marginLeft:"200px", marginTop:"200px"}}>
+                <Image src={SHS} alt="SHS" />
+                <div style={{textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", wordBreak: "break-word", marginLeft:"50px", fontSize:"17px", color:"#555454", marginTop:"-60px"}}>
+                    <Image src={Point} alt="point" style={{ marginBottom: "30px" }}/>
+                    "The overall experience throughout my scholarship <br/>
+                    journey with Studev was wholesome. Kak Anis has<br/>
+                    given me so much valuable insight as well as great <br/>
+                    academic and career advice. I am grateful for this <br/>
+                    opportunity and the knowledge I have gained. Thank <br/>
+                    you Kak Anis and Studev for your guidance and <br/>
+                    support!"
+                    <div style={{fontWeight:"750", fontSize:"12px", color:"#313030", marginTop:"10px", marginBottom:"10px"}}>
+                        Dewi Nareswari
+                    </div>
+                    <div style={{fontSize:"11px", color:"#747474"}}>
+                        Lolos LPDP 2022
+                    </div>
+                </div>
+            </div>
+            <div style={{marginTop: "200px", textAlign: "center" , marginBottom:"20px"}}>
+                <p style={{color: "#313030", fontSize:"30px"}}>
+                    Belajar Bersama Komunitas
+                </p>
+                <p style={{ fontSize: "13px", marginTop: "5px", color: "#747474" , paddingTop:"5px"}}>
+                    Kamu juga bisa sharing dan belajar bersama komunitas Studev Talk. Ikuti eventnya tiap minggu!
+                </p>
+                <div style={{display:"flex", marginTop:"40px", gap:"10px", justifyContent:"center"}}>
+                    <Image src={EM1} alt="Event Minggu 1"/>
+                    <Image src={EM2} alt="Event Minggu 2"/>
+                    <Image src={EM3} alt="Event Minggu 3"/>
+                </div>
+            </div>
+            <div style={{display: "flex", justifyContent: "space-between", marginTop: "200px"}}>
+                <div style={{marginLeft:"160px" ,width: "50%"}}>
+                    <p style={{fontSize:"12px", color: "#E2626B", marginBottom:"8px"}}>
+                        FAQ
+                    </p>
+                    <p style={{fontSize:"30px", marginBottom:"8px"}}>
+                        Masih ingin bertanya?
+                    </p>
+                    <p style={{wordBreak: "break-word", fontSize:"13px", marginBottom:"15px"}}>
+                        Jika ingin berbincang dengan Student Officer kami, kamu bisa menghubungi via<br/>
+                        email ataupun nomor WhatsApp. Kami siap mewujudkan keinginanmu untuk<br/>
+                        kuliah ke luar negeri.
+                    </p>
+                    <div style={{justifyContent: "right", alignItems: "right", width: "120px", height: "40px", backgroundColor: "#E2626B", borderRadius: "25px", marginTop:"20px"}}>
+                        <p style={{fontSize: "11.5px", color: "white", fontWeight: "bold", textAlign: "center", transform: "translate(0%, 70%)"}}>
+                            Hubungi Kami
+                        </p>
+                    </div>
+                </div>
+                <div style={{width: "55%"}}>
+                    <div style={{display:"flex", alignItems: "center", width: "460px", height: "50px", backgroundColor: "white", borderRadius: "10px", marginTop:"20px", border: "1px solid #CCCCCC" }}>
+                        <div style={{marginLeft:"20px", display:"flex", gap:"5px", fontWeight:"550", fontSize:"13.5px"}}>
+                            <Image src={Arrow} alt="Down Arrow" /> Apakah bisa dibantu memilih programnya?
+                        </div>
+                    </div>
+                    <div style={{display:"flex", alignItems: "center", width: "460px", height: "50px", backgroundColor: "white", borderRadius: "10px", marginTop:"20px", border: "1px solid #CCCCCC" }}>
+                        <div style={{marginLeft:"20px", display:"flex", gap:"5px", fontWeight:"550", fontSize:"13.5px"}}>
+                            <Image src={Arrow} alt="Down Arrow" /> Apa perbedaan private dan group class?
+                        </div>
+                    </div>
+                    <div style={{display:"flex", alignItems: "center", width: "460px", height: "50px", backgroundColor: "white", borderRadius: "10px", marginTop:"20px", border: "1px solid #CCCCCC" }}>
+                        <div style={{marginLeft:"20px", display:"flex", gap:"5px", fontWeight:"550", fontSize:"13.5px"}}>
+                            <Image src={Arrow} alt="Down Arrow" /> Bagaimana dengan jadwal kelas?
+                        </div>
+                    </div>
+                    <div style={{display:"flex", alignItems: "center", width: "460px", height: "50px", backgroundColor: "white", borderRadius: "10px", marginTop:"20px", border: "1px solid #CCCCCC" }}>
+                        <div style={{marginLeft:"20px", display:"flex", gap:"5px", fontWeight:"550", fontSize:"13.5px"}}>
+                            <Image src={Arrow} alt="Down Arrow" /> Apakah pembayaran dapat dilakukan dengan cicilan?
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style={{ backgroundColor: "#FFF3F3", marginTop: "90px", padding: "40px" }}>
+                <div style={{ display: "flex", justifyContent: "space-around", alignItems: "flex-start" }}>
+                    <div style={{ maxWidth: "500px", textAlign: "start", marginLeft:"80px" }}>
+                        <Image src={Logo} alt="Logo Studev" style={{ marginBottom: "10px" }} />
+                        <p style={{ fontSize: "12.5px", color: "#60697B", lineHeight:"1.7" , wordBreak: "break-word" }}>
+                            Raih impianmu kuliah ke luar negeri lebih cepat! Belajar<br />
+                            IELTS, TOEFL, dan git add .
+                            dapatkan akses langsung dari<br />
+                            mahasiswa serta kampus luar negeri pilihanmu.
+                        </p>
+                    </div>
+                    <div style={{ display: "flex", alignItems: "start", maxWidth: "500px" }}>
+                        <Image src={Kontak} alt="Kontak" style={{ marginRight: "14px", marginLeft:"120px" }} />
+                        <div>
+                            <p style={{ fontSize: "14px", color:"#313030" , fontWeight: "700", marginBottom: "8px" }}>
+                                Kontak
+                            </p>
+                            <div style={{ fontSize: "12.5px", lineHeight:"1.7" ,fontWeight: "500", color: "#60697B" }}>
+                                <p>+628112835080 (CS 1)</p>
+                                <p>+6281287780739 (CS 2)</p>
+                                <p>+628112644277 (CS 3)</p>
+                                <p>halo@studev.co.id</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{ display: "flex", alignItems: "start", maxWidth: "500px", marginRight:"90px" }}>
+                        <Image src={Alamat} alt="Alamat" style={{ marginRight: "14px" }} />
+                        <div>
+                            <p style={{ fontSize: "14px", color:"#313030" ,fontWeight: "700", marginBottom: "8px" }}>
+                                Alamat
+                            </p>
+                            <div style={{ fontSize: "12.5px", fontWeight: "500", lineHeight:"1.7" , color: "#60697B" }}>
+                                <p style={{ wordBreak: "break-word" }}>
+                                    Jl. Prof. Herman Yohanes No. 1212<br />
+                                    Terban, Gondokusuman, Yogyakarta<br />
+                                    Daerah Istimewa Yogyakarta 55223
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style={{ marginLeft: "120px", marginTop: "90px", borderTop: "1px solid #D6D6D6", width: "81%" }}>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "start", marginTop: "27px" }}>
+                        <p style={{ fontSize: "12.5px", color: "#60697B" }}>
+                            © 2020 PT Sinar Edukasi Nusantara. Hak cipta dilindungi.
+                        </p>
+                        <div style={{ display: "flex", gap: "12px" }}>
+                            <Image src={Facebook} alt="Facebook" />
+                            <Image src={Linkedin} alt="Linkedin" />
+                            <Image src={Instagram} alt="Instagram" />
+                            <Image src={Youtube} alt="Youtube" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
